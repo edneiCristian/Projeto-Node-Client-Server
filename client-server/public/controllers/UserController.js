@@ -199,9 +199,7 @@ class UserController {
 
     selectAll() {
 
-       
-
-        HttpRequest.get('/users').then(data=>{
+        HttpRequest.get('/users').then(data => {
 
             data.users.forEach(dataUser => {
 
@@ -214,8 +212,6 @@ class UserController {
             });
 
         })
-
-
 
     }
 
